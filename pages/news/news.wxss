@@ -1,0 +1,14 @@
+@import "news-template/news_template.wxss";
+
+.news-contains{
+  background: #f1f1f1;
+}
+.news-contains swiper{
+  width: 100%;
+  height:350rpx;
+}
+
+.news-contains swiper image{
+  width: 100%;
+}
+

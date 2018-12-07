@@ -1,0 +1,21 @@
+<view class='news-detail-contains'>
+  <image class='head-img' src='{{articleImg}}'></image>
+  <view class='author-time'>
+    <image class='author-icon' src='{{authorIcon}}'></image>
+    <text class='author-name'>{{authorName}}</text>
+    <text class='const-text'>发表于：</text>
+    <text class='author-date'>{{authorDate}}</text>
+    <image bindtap='playerMusicTap' class='playermusic' src='{{isPlayer ? "../../images/earphone.png" : "../../images/eartag.png"}}'></image>
+  </view>
+  <text class='title'>{{title}}</text>
+  <view class="tool">
+    <view class='article-like'>
+      <image wx:if="{{collected}}" class='article-like-icon' catchtap='collectTap' src='../../images/sch.png'></image>  
+      <image wx:else class='article-like-icon' catchtap='collectTap' src='../../images/sc.png'></image>  
+
+      <image class='article-like-icon' src='../../images/fx.png'></image>
+    </view>
+    <view class="horizon"></view>
+  </view>
+  <text class="detail">{{articleText}}</text>
+</view>

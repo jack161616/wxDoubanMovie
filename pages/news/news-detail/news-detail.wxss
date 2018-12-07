@@ -1,0 +1,96 @@
+.news-detail-contains{
+  display: flex;
+  flex-direction: column; 
+}
+
+.head-img{
+  width: 100%;
+}
+
+.author-time{
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+}
+
+.author-icon{
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+}
+
+.author-name{
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666; 
+}
+
+.const-text{
+  font-size: 24rpx;
+  font-weight: 400;
+  margin-left: 50rpx;
+  vertical-align: middle;
+  color: #999; 
+}
+
+.author-date{
+  margin-left: 5rpx;
+  vertical-align: middle;
+  color: #999;
+  font-size: 24rpx;
+}
+
+.title{
+  font-size: 36rpx;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: #4b556c;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+}
+
+.tool{
+  margin-top: 20rpx; 
+}
+
+.article-like{
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+
+.article-like-icon{
+  height: 50rpx;
+  width: 50rpx;
+  margin-left:30rpx; 
+}
+
+.horizon{
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 46rpx;
+  margin: 0 auto;
+  z-index: -99;
+}
+
+.detail{
+  color: #666;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+  font-size: 24rpx; 
+}
+
+.playermusic{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-left: 40rpx; 
+}
